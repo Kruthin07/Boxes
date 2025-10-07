@@ -8,7 +8,7 @@ greetButton.addEventListener('click', () => {
     if (userName) {
         greeting.textContent = `Hello, ${userName}!`;
     } else {
-        greeting.textContent = 'Hello, World';
+        greeting.textContent = 'Hello';
     }
 });
 
@@ -29,3 +29,4 @@ colorBoxes.forEach(box => {
         }
     });
 });
+
